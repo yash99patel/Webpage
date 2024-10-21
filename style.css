@@ -1,0 +1,490 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.logo {
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    background-color: rgb(255, 255, 255);
+    z-index: 1;
+}
+
+.image {
+    background: transparent;
+}
+
+.img {
+    height: 80px;
+    width: 80px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+ul {
+
+    background-color: transparent;
+    list-style-type: none;
+    margin-left: 51%;
+    margin-top: -5%;
+    font-size: 0px;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #000000;
+    padding: 10px 15px;
+    text-decoration: none;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    transition: all 0.5s;
+}
+
+li a:hover {
+    color: orangered;
+}
+
+.textA {
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 20px;
+    max-width: 600px;
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.paragraph {
+    position: absolute;
+    max-width: 1200px;
+    margin-top: 350px;
+    margin-left: 20px;
+    font-size: 20px;
+    color:rgb(130, 126, 126);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+.our {
+    position: absolute;
+    margin-top: 500px;
+    margin-left: 20px;
+    font-size: 40px;
+}
+
+.line {
+    position: absolute;
+    margin-top: 570px;
+    margin-left: 20px;
+    font-size: 20px;
+    color: grey;
+
+}
+.A{
+    position: absolute;
+    margin-top: 640px;
+    float: left;
+}
+.w{
+    height:300px; 
+    width:300px;
+}
+.container3 {
+    margin-left: 20px;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+}
+
+.overlay3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    text-transform: uppercase;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #ffffff;
+    opacity: 0;
+    transition: all 0.5s;
+}
+#DON{
+    margin-top: -25%;
+    margin-left:160px;
+}
+.overlay3 h3{
+    margin-top: 20px;
+    margin-left: -8px;
+}
+.overlay3 h1{
+    margin-top:-5px;
+    max-width: 200px;
+}
+.container3:hover .overlay3 {
+    opacity: 1;
+    background-color:orangered;
+}
+
+.container3:hover img {
+    transform: scale(1.2);
+}
+.B{
+    position: absolute;
+    margin-top:640px;
+    margin-left:25%;
+}
+.C{
+    position: absolute;
+    margin-top:640px;
+    margin-left:50%; 
+}
+.D{
+    position: absolute;
+    margin-top:640px;
+    margin-left:75%; 
+}
+.E{
+    position: absolute;
+    margin-top:960px;
+}
+.F{
+    position: absolute;
+    margin-top:960px;
+    margin-left: 25%;
+}
+.G{
+    position: absolute;
+    margin-top:960px;
+    margin-left: 50%;
+}
+.H{
+    position: absolute;
+    margin-top:960px;
+    margin-left: 75%;
+}
+.I{
+    position: absolute;
+    margin-top:1280px;
+}
+.J{
+    position: absolute;
+    margin-top:1280px;
+    margin-left: 25%;
+}
+.K{
+    position: absolute;
+    margin-top:1280px;
+    margin-left: 50%;
+}
+.L{
+    position: absolute;
+    margin-top:1280px;
+    margin-left: 75%;
+}
+.M{
+    position: absolute;
+    margin-top:1600px;
+}
+.N{
+    position: absolute;
+    margin-top:1600px;
+    margin-left: 25%;
+}
+.O{
+    position: absolute;
+    margin-top:1600px;
+    margin-left: 50%;
+}
+.P{
+    position: absolute;
+    margin-top:1600px;
+    margin-left: 75%;
+}
+.A,.B,.C,.D,.E,.F.G,.H,.I,.J,.K,.L,.M,.N,.O,.P{
+    cursor: pointer;
+}
+.all {
+    position: absolute;
+    font-size: 40px;
+    max-width: 50px;
+    margin-top: 1950px;
+    margin-left: 500px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.all:hover {
+    color: orangered;
+}
+.fa-arrow-right {
+    font-size: 50px;
+    rotate: -45deg;
+    margin-top: 30px;
+}
+
+.LINE {
+    border-bottom: 1px solid rgb(193, 188, 188);
+    width: 85%;
+    color: rgb(178, 178, 178);
+    position: absolute;
+    margin-top: 2200px;
+    margin-left: 100px;
+}
+
+.ser {
+    position: absolute;
+    margin-top: 2270px;
+    margin-left: 100px;
+}
+
+.we {
+    position: absolute;
+    margin-top: 2300px;
+    margin-left: 100px;
+    font-size: 20px;
+    max-width: 600px;
+    color: grey;
+}
+
+.AA {
+    position: absolute;
+    color: grey;
+    margin-left: 100px;
+    margin-top: 2400px;
+}
+
+.AB {
+    position: absolute;
+    color: grey;
+    margin-left: 380px;
+    margin-top: 2400px;
+}
+
+.AC {
+    position: absolute;
+    color: grey;
+    margin-left: 680px;
+    margin-top: 2400px;
+}
+
+.AD {
+    position: absolute;
+    color: grey;
+    margin-left: 950px;
+    margin-top: 2400px;
+}
+
+.BA {
+    position: absolute;
+    margin-left: 100px;
+    margin-top:2450px;
+    font-size: 25px;
+}
+
+.BB {
+    position: absolute;
+    margin-left: 380px;
+    margin-top: 2450px;
+    font-size: 25px;
+}
+
+.BC {
+    position: absolute;
+    margin-left: 680px;
+    margin-top: 2450px;
+    font-size: 25px;
+}
+
+.BD {
+    position: absolute;
+    margin-left: 950px;
+    margin-top: 2450px;
+    font-size: 25px;
+}
+td:hover{
+    color: orangered;
+}
+.LINEA {
+    border-bottom: 1px solid rgb(193, 188, 188);
+    width: 85%;
+    position: absolute;
+    margin-top: 2700px;
+    margin-left: 100px;
+}
+
+
+/* logo side */
+.pat {
+    margin-top: 2750px;
+    margin-left: 100px;
+}
+
+.Z {
+    height:30px;
+    width: 100px;
+    margin-left: 170px;
+    float: left;
+}
+
+.Y {
+    height: 30px;
+    width: 100px;
+    margin-left:170px;
+}
+.p{
+    height: 20px;
+    width: 100px;
+    margin-left:170px; 
+}
+.LINEB {
+    border: 1px solid rgb(193, 188, 188);
+    position: absolute;
+    width: 85%;
+    margin-top: 70px;
+    margin-left:100px;
+}
+
+.long {
+    max-width: 600px;
+    position: absolute;
+    margin-top: 130px;
+    margin-left: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    line-height:20px;
+    color: grey;
+}
+span{
+    position: absolute;
+    margin-top:23px;
+    margin-left: -388px;
+}
+.des {
+    margin-left: 800px;
+    margin-top:150px;
+    color: grey;
+    font-size: 30px;
+}
+
+.call {
+    margin-left: 795px;
+    margin-top: px;
+    font-size: 60px;
+    color: rgb(0, 0, 0);
+    transition: all 0.5s;
+}
+
+.call:hover {
+    color: orangered;
+}
+
+/* last part */
+.black {
+    height: 400px;
+    width: 100%;
+    background-color: #111;
+    margin-top:150px;
+}
+
+.logologo {
+    margin-left: 20px;
+    margin-top: 100px;
+    height: 75px;
+    width: 75px;
+}
+
+.box {
+    color: white;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.ltd {
+    color: white;
+    margin-left: 190px;
+    margin-top: 80px;
+    font-size: 11px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.one {
+    margin-left:500px;
+    margin-top: -260px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+}
+
+.padding {
+    padding-left: 130px;
+    padding-top: 20px;
+
+}
+.top {
+    padding-top: 20px;
+}
+.boxA {
+    height: 20px;
+    width: 20px;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    margin-left: 850px;
+    margin-top: -130px;
+    z-index: 10;
+    position: relative;
+    rotate: 45deg;
+
+}
+.boxB {
+    height: 20px;
+    width: 20px;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    margin-left: 800px;
+    margin-top: -21px;
+    z-index: 10;
+    position: relative;
+    rotate: 45deg;
+}
+
+.boxB:hover {
+    border: 1px solid rgb(0, 174, 255);
+    transition: all 0.5s;
+}
+.boxA:hover {
+    border: 1px solid rgb(255, 85, 153);
+    transition: all 0.5s;
+}
+.instagram {
+    margin-top: 0px;
+    margin-left: 4px;
+    rotate: -45deg;
+    transition: all 0.5s;
+}
+.link {
+    margin-top: 0px;
+    margin-left: 5px;
+    rotate: -45deg;
+    transition: all 0.5s;
+}
+i:hover {
+    color: rgb(255, 85, 153);
+    transition: all 0.5s;
+}
+a{
+    color: white;
+}
+#b:hover {
+    color: rgb(0, 174, 255);
+    transition: all 0.5s;
+}
